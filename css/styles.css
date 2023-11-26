@@ -192,6 +192,7 @@ gap: 40px;
 }
 .service {
     cursor: pointer;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 /* Style hero image */
 .main {
@@ -199,6 +200,7 @@ gap: 40px;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+    max-width: 1440px;
     }
 
 /* !-- Section 2 -- */
