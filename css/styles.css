@@ -90,6 +90,7 @@ body {
     }
 .navigation-own {
     display: block;
+    width: 100%;
     padding-top: 24px;
     padding-bottom: 24px;
     font-family: 'Roboto', sans-serif;
@@ -178,6 +179,8 @@ gap: 40px;
 .main {
     background-color: #2e2f42;
     padding: 188px 0;
+    margin-left: auto;
+    margin-right: auto;
 }
 .title {
         color: var(--WHITE, #ffffff);
@@ -232,17 +235,17 @@ gap: 40px;
 
 /* !-- Section 2 -- */
 .title-two {
-        color: #2E2F42;
-        font-family: 'Roboto', sans-serif;
-        font-size: 36px;
-        font-weight: 700;
-        line-height: 1.11;
-        letter-spacing: 0.02em;
-        text-transform: capitalize;
-        text-align: center;
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 72px;
+    color: #2E2F42;
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 72px;
 }
 .feature {
     display: flex;
@@ -449,8 +452,6 @@ margin-top: 24px;
 
 .container-media {
     width: 208px;
-    margin-left: 540px;
-    margin-top: 100px;
 }
 
 .all-icons-low {
